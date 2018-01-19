@@ -1,20 +1,24 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: Маленькая Шотландия
+subtitle: Современный поселок таунхаусов на Ленинградском шоссе
 image: /img/home-jumbotron.jpg
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+    heading: Преимущества
+    text: "Если Вы устали от шумной Москвы, мечтаете о жизни в просторном загородном доме, о благоприятной экологии и безопасности своей семьи, тогда добро пожаловать в «Маленькую Шотландию»! Здесь есть все для комфортного проживания в Подмосковье: готовые таунхаусы эконом-класса площадью от 164 кв. м, собственные участки, на которых можно обустроить живописный сад или барбекю, детский образовательный центр. В поселке проживает уже более 200 семей, владельцы получают постоянную прописку."
 intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
+    heading: Преимущества
+    text: "Что представляют собой современные дома в «Маленькой Шотландии»? Почему так много людей хотят стать владельцами двух- или трехэтажной квартиры в таунхаусе? Совмещая комфорт городского жилья и благоприятную экологию района в ближайшем Подмосковье, секция в сблокированном коттедже имеет ряд преимуществ."
 products:
     - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
+      text: "Cобственный вход. Подъезд таунхауса принадлежит только одному владельцу. И соседей здесь можно встретить не на лестничной площадке, а на смежных участках."
     - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
+      text: "Свободные планировки позволяют обустроить пространство по своему вкусу исходя из потребностей вашей семьи: в просторном коттедже комфортно будет представителям всех поколений."
+    - image: /img/illustrations-coffee-gear.svg
+      text: "Cобственная парковка. Вам не нужно заботиться о том, где оставить машину: свободное место всегда будет прямо у вашего крыльца."
+    - image: /img/illustrations-coffee-gear.svg
+      text: "Cобственный участок. Вы становитесь владельцем придомовой территории площадью от 2 до 7 соток. Здесь можно организовать пикник в компании друзей и соседей, обустроить беседку или детский бассейн, разбить красивый сад с великолепными цветами и мощеными тропинками или просто почитать книжку в гамаке."
 values:
-    heading: Our values
+    heading: Технологии
     text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
 ---
 
