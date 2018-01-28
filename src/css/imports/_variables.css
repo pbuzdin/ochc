@@ -2,6 +2,7 @@
 	/* Colors */
 	/* --primary: rgba(255, 68, 0, 1); */
 	--primary: rgba(8, 145, 145, 1);
+	--primary-25: rgba(8, 145, 145, 0.25);
 	--highlight: rgba(254, 213, 198, 1);
 	--white: rgba(255, 255, 255, 1);
 	--off-white: rgba(255, 253, 252, 1);
