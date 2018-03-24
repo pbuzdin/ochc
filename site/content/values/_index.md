@@ -2,7 +2,7 @@
 title: Преимущества
 image: /img/about-jumbotron.jpg
 values:
-  - heading: Большие сиськи
+  - heading: Дома
     imageUrl: /img/about-shade-grown.jpg
     text: >
       Во время тренинга отрабатываются основные психотехники и приемы регуляции
