@@ -1,9 +1,11 @@
 ---
-title: 'Just in: small batch of Jamaican Blue Mountain in store next week'
+title: 'Волынский пер. дом 1, сек. 2'
 date: 2017-01-04T15:04:10.000Z
+S: 'Общая площадь: 185&nbsp;м<sup>2</sup><br>Участок площадью: 173&nbsp;м<sup>2</sup>'
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
   Mountain coffee beans in our store next week.
+image: /img/t2.jpg
 ---
 
 We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.
