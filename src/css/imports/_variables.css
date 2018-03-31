@@ -37,3 +37,6 @@
 	--border-radius: .25rem;
 	--hover-transition: all 150ms ease;
 }
+.mobile-menu-bottom .caption {
+	font-size: 0.75rem
+}

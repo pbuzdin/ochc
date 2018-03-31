@@ -1,3 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Homepage"
+
+[params]
+  phone = '+7-925-555-07-57'

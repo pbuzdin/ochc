@@ -1,32 +1,54 @@
-<nav class="overflow-x-scroll overflow-x-visible-ns divider-grey flex justify-between items-center center bg-white fixed w-100 z-5">
-
+<nav class="overflow-x-scroll overflow-x-visible-ns divider-grey flex justify-between items-center center bg-white fixed-l w-100 z-5">
 	<!-- Logo -->
 	<a href="/" class="primary tc no-underline ttu fw7 pa3 db mr4 flex-none" new-class="link dim black b f6 f5-ns dib mr3">
 		<!-- <img src="/img/logo.svg" alt="Kaldi logo" /> -->
 		Маленькая Шотландия</a>
-
 	<!-- Primary Nav -->
 	<ul class="flex b grey-3">
 		<li>
-			<a href="/#homes" class="pa3 no-underline db">Таунхаусы</a>
+			<a href="/#homes" class="pa3 no-underline dn db-m">Таунхаусы</a>
 		</li>
-
 		<li>
-			<a href="/#features" class="pa3 no-underline db">Преимущества</a>
+			<a href="/#features" class="pa3 no-underline dn db-m">Преимущества</a>
 		</li>
-
 		<li>
-			<a href="/#location" class="pa3 no-underline db">Расположение</a>
+			<a href="/#location" class="pa3 no-underline dn db-m">Расположение</a>
 		</li>
-
 		<li>
-			<a href="tel:+7-925-555-07-57" class="pa3 no-underline nowrap dn dn-ns db-m db-l bg-primary white">
+			<a href="tel:{{ $.Site.Params.phone }}" class="pa3 no-underline nowrap dn dn-ns db-m db-l bg-primary white">
 				<svg width="22px" height="22px" class="db db-ns db-m dn-l">
 					<use xlink:href="#icons-phone"></use>
 				</svg>
-				<span class="dn dn-ns dn-m db-l">+7-925-555-07-57</span>
+				<span class="dn dn-ns dn-m db-l">{{ $.Site.Params.phone }}</span>
 				</a>
 		</li>
 	</ul>
-
 </nav>
+
+<menu class="fixed bottom-0 z-999 w-100 db-ns dn-l mobile-menu-bottom">
+	<ul class="flex b grey-3">
+		<li class="w-100">
+			<a href="#contact" class="pa2 no-underline br nowrap db bg-primary white">
+				<svg width="32px" height="32px" class="db center">
+					<use xlink:href="#icon-ask"></use>
+				</svg>
+				<span class="db tc caption">Сообщение</span>
+				</a>
+		</li>
+		<li class="w-100">
+			<a href="/#location" class="pa2 no-underline br nowrap db bg-primary white">
+				<svg width="32px" height="32px" class="db center">
+					<use xlink:href="#icon-location"></use>
+				</svg>
+				<span class="db tc caption">Расположение</span>
+				</a>
+		</li>
+		<li class="w-100">
+			<a href="tel:{{ $.Site.Params.phone }}" class="pa2 no-underline nowrap db bg-primary white">
+				<svg width="32px" height="32px" class="db center">
+					<use xlink:href="#icon-call" fill="#fff"></use>
+				</svg>
+				<span class="db tc caption">Позвонить</span>
+				</a>
+		</li>
+</menu>
