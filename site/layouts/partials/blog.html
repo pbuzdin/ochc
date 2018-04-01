@@ -19,7 +19,7 @@
 		<h2 id="photo" class="f2 b lh-title pb2">Фотографии посёлка</h2>
 	</div>
 </div>
-<div class="bg-grey-1 h-100 pb4">
+<div class="bg-grey-1 h-100 pb4 center">
 <link rel="stylesheet" href="/swiper.min.css">
   <style>
     html, body {
@@ -27,6 +27,7 @@
     }
     .swiper-container {
       width: 100%;
+      max-width: 1000px;
       height: 300px;
       margin-left: auto;
       margin-right: auto;
@@ -36,7 +37,7 @@
       background-position: center;
     }
     .gallery-top {
-      height: 80%;
+      height: 65%;
       width: 100%;
     }
     .gallery-thumbs {
@@ -51,6 +52,15 @@
     }
     .gallery-thumbs .swiper-slide-active {
       opacity: 1;
+    }
+    .swiper-button-next.swiper-button-white,
+    .swiper-button-prev.swiper-button-white {
+      padding: 1.3rem;
+      background-color: #0b9090;
+    }
+    .swiper-button-next.swiper-button-disabled,
+    .swiper-button-prev.swiper-button-disabled {
+      background-color: transparent;
     }
   </style>
   <div class="swiper-container gallery-top">
