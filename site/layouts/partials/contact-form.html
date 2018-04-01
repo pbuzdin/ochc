@@ -3,19 +3,19 @@
   <!-- <h4 class="f3 b lh-title mb3 tc">Drop us a line below</h4> -->
 
   <form action="" netlify netlify-honeypot="second-name">
-    <label class="dn">Введите вашу фамилию: <input name="second-name" type="text"></label>
+    <label class="dn" for="second-name">Введите вашу фамилию:</label><input name="second-name" id="second-name" type="text">
     <div class="flex-l mhn1-l">
           <!-- Name -->
       <div class="ph1-l w-50-l">
         <fieldset>
-          <input type="text" id="name" placeholder="Имя" class="w-100 mb2">
+          <input type="text" id="name" name="name" placeholder="Имя" class="w-100 mb2">
           <label for="name">Введите ваше имя</label>
         </fieldset>
       </div>
           <!-- Phone -->
       <div class="ph1-l w-50-l">
         <fieldset>
-          <input type="tel" id="phone" placeholder="Телефон" class="w-100 mb2" required>
+          <input type="tel" id="phone" name="phone" placeholder="Телефон" class="w-100 mb2" required>
           <label for="phone">Введите ваш номер</label>
         </fieldset>
       </div>
@@ -23,7 +23,7 @@
 
         <!-- Message -->
     <fieldset>
-      <textarea name="name" placeholder="Когда нам позвонить вам?" rows="8" cols="80" id="message" class="w-100"></textarea>
+      <textarea name="message" placeholder="Когда нам позвонить вам?" rows="8" cols="80" id="message" class="w-100"></textarea>
       <label for="message">Сообщение</label>
     </fieldset>
         <!-- Button -->
