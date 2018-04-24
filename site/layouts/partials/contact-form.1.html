@@ -1,19 +1,19 @@
 <!-- Contact -->
 <div class="mb4">
   <!-- <h4 class="f3 b lh-title mb3 tc">Drop us a line below</h4> -->
-  <form id="gform" action="https://script.google.com/macros/s/AKfycbzoNNkktftPU-5vPEWVA2Gr4I3VHWBRa8HHrhrB/exec" method="POST">
+  <form action="" netlify netlify-honeypot="second-name">
+    <label class="dn" for="second-name">Введите вашу фамилию:</label><input class="dn" name="second-name" id="second-name" type="text">
     <div class="flex-l mhn1-l">
       <div class="ph1-l w-50-l">
         <fieldset>
-          <input type="text" id="name" name="name" placeholder="Имя" maxlength="10" class="w-100 mb2">
+          <input type="text" id="name" name="name" placeholder="Имя" class="w-100 mb2">
           <label for="name">Введите ваше имя</label>
         </fieldset>
       </div>
       <div class="ph1-l w-50-l">
         <fieldset>
-          <input type="tel" id="telephone" name="telephone" placeholder="Телефон" maxlength="16" class="w-100 mb2" required>
-          <input id="honeypot" type="text" name="honeypot" value="" class="dn" />
-          <label for="telephone">Введите ваш номер</label>
+          <input type="tel" id="phone" name="phone" placeholder="Телефон" class="w-100 mb2" required>
+          <label for="phone">Введите ваш номер</label>
         </fieldset>
       </div>
     </div>
@@ -25,8 +25,4 @@
       <button type="submit" class="btn w-100 w-auto-ns raise">Отправить</button>
     </div>
   </form>
-  <div style="display:none;" id="thankyou_message">
-    <h2 class="tc pv4">Ваша заявка отправлена. Спасибо!</h2>
-  </div>
-    <script data-cfasync="false" src="/form.js"></script>
 </div>
