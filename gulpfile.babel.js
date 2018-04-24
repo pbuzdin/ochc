@@ -56,23 +56,25 @@ gulp.task("js", (cb) => {
   });
 });
 
-gulp.task("svg", () => {
-  const svgs = gulp
-    .src("site/static/img/icons-*.svg")
-    .pipe(svgmin())
-    .pipe(svgstore({inlineSvg: true}));
+// gulp.task("svg", () => {
+//   const svgs = gulp
+//     .src("site/static/img/icons-*.svg")
+//     .pipe(svgmin())
+//     .pipe(svgstore({inlineSvg: true}));
 
-  function fileContents(filePath, file) {
-    return file.contents.toString();
-  }
+//   function fileContents(filePath, file) {
+//     return file.contents.toString();
+//   }
 
-  return gulp
-    .src("site/layouts/partials/svg.html")
-    .pipe(inject(svgs, {transform: fileContents}))
-    .pipe(gulp.dest("site/layouts/partials/"));
-});
+//   return gulp
+//     .src("site/layouts/partials/svg.html")
+//     .pipe(inject(svgs, {transform: fileContents}))
+//     .pipe(gulp.dest("site/layouts/partials/"));
+// });
 
-gulp.task("server", ["hugo", "css", "cms-assets", "js", "svg"], () => {
+gulp.task("server", ["hugo", "css", "cms-assets", "js"
+//, "svg"
+], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
