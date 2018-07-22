@@ -105,4 +105,4 @@ function loaded() {
   var form = document.getElementById("gform");
   form.addEventListener("submit", handleFormSubmit, false);
 };
-document.addEventListener("DOMContentLoaded", loaded, false);
+document.addEventListener("DOMContentLoaded", loaded(), false);
